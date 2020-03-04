@@ -21,7 +21,7 @@ const heroSchema = new mongoose.Schema({
     superPowers : {
         required: true,
         type:[String],
-        enum : ['Invisibility','Barking','Flying','runnig','walking','Smoaking','lol'],
+        enum : ['Invisibility','Barking','Flying','runnig','walking','lol'],
         default:undefined
     },
     moview : [String]
