@@ -36,6 +36,13 @@ const heroSchema = new mongoose.Schema({
 //      except heroSchema.exceptions.ValidationError as error:
 //      validationErrors.append(error)
 
+// dsvsdvsdvsdvdsv
+
+
+// try: heroSchema.validate(jsonFile, schema);
+//      except heroSchema.exceptions.ValidationError as error:
+//      validationErrors.append(error)
+
 
 const Hero = mongoose.model("Hero", heroSchema)
 module.exports = Hero
