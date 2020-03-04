@@ -27,7 +27,9 @@ const heroSchema = new mongoose.Schema({
     moview : [String]
 })
 
-
+// try: heroSchema.validate(jsonFile, schema);
+//      except heroSchema.exceptions.ValidationError as error:
+//      validationErrors.append(error)
 
 
 // try: heroSchema.validate(jsonFile, schema);
