@@ -16,7 +16,7 @@ async function GetAsyncResults() {
   } catch (err) {
     console.log(err);
   }
-}
+}//jgjhhghgj
 
 GetAsyncResults();
 
